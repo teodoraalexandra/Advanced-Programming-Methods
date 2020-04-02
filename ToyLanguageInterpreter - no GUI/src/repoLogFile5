@@ -1,0 +1,182 @@
+ID
+5
+EXE STACK
+[((int b); ((bool ok); (a = 10; (b = 5; (IF(a>=b) THEN(ok = true)ELSE(ok = false); print(ok))))))]
+SYMBOL TABLE
+{a=0}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+5
+EXE STACK
+[((bool ok); (a = 10; (b = 5; (IF(a>=b) THEN(ok = true)ELSE(ok = false); print(ok)))))]
+SYMBOL TABLE
+{b=0, a=0}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+5
+EXE STACK
+[((bool ok); (a = 10; (b = 5; (IF(a>=b) THEN(ok = true)ELSE(ok = false); print(ok)))))]
+SYMBOL TABLE
+{b=0, a=0}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+5
+EXE STACK
+[(a = 10; (b = 5; (IF(a>=b) THEN(ok = true)ELSE(ok = false); print(ok))))]
+SYMBOL TABLE
+{b=0, a=0, ok=false}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+5
+EXE STACK
+[(a = 10; (b = 5; (IF(a>=b) THEN(ok = true)ELSE(ok = false); print(ok))))]
+SYMBOL TABLE
+{b=0, a=0, ok=false}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+5
+EXE STACK
+[(b = 5; (IF(a>=b) THEN(ok = true)ELSE(ok = false); print(ok)))]
+SYMBOL TABLE
+{b=0, a=10, ok=false}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+5
+EXE STACK
+[(b = 5; (IF(a>=b) THEN(ok = true)ELSE(ok = false); print(ok)))]
+SYMBOL TABLE
+{b=0, a=10, ok=false}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+5
+EXE STACK
+[(IF(a>=b) THEN(ok = true)ELSE(ok = false); print(ok))]
+SYMBOL TABLE
+{b=5, a=10, ok=false}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+5
+EXE STACK
+[(IF(a>=b) THEN(ok = true)ELSE(ok = false); print(ok))]
+SYMBOL TABLE
+{b=5, a=10, ok=false}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+5
+EXE STACK
+[print(ok), ok = true]
+SYMBOL TABLE
+{b=5, a=10, ok=false}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+5
+EXE STACK
+[print(ok), ok = true]
+SYMBOL TABLE
+{b=5, a=10, ok=false}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+5
+EXE STACK
+[print(ok)]
+SYMBOL TABLE
+{b=5, a=10, ok=true}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+5
+EXE STACK
+[print(ok)]
+SYMBOL TABLE
+{b=5, a=10, ok=true}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+5
+EXE STACK
+[]
+SYMBOL TABLE
+{b=5, a=10, ok=true}
+OUT
+[true]
+FILE TABLE
+{}
+HEAP
+{}
+

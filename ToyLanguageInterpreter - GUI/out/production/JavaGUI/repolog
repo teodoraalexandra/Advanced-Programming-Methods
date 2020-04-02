@@ -1,0 +1,1860 @@
+ID
+1
+EXE STACK
+[((Ref(int) v1); ((Ref(int) v2); ((Ref(int) v3); (new(v1, 2); (new(v2, 3); (new(v3, 4); (newBarrier(cntrH(v2)); (fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3)))))))))))), (int cnt)]
+SYMBOL TABLE
+{}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[((Ref(int) v1); ((Ref(int) v2); ((Ref(int) v3); (new(v1, 2); (new(v2, 3); (new(v3, 4); (newBarrier(cntrH(v2)); (fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3))))))))))))]
+SYMBOL TABLE
+{cnt=0}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[((Ref(int) v1); ((Ref(int) v2); ((Ref(int) v3); (new(v1, 2); (new(v2, 3); (new(v3, 4); (newBarrier(cntrH(v2)); (fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3))))))))))))]
+SYMBOL TABLE
+{cnt=0}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[((Ref(int) v2); ((Ref(int) v3); (new(v1, 2); (new(v2, 3); (new(v3, 4); (newBarrier(cntrH(v2)); (fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3))))))))))), (Ref(int) v1)]
+SYMBOL TABLE
+{cnt=0}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[((Ref(int) v2); ((Ref(int) v3); (new(v1, 2); (new(v2, 3); (new(v3, 4); (newBarrier(cntrH(v2)); (fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3))))))))))), (Ref(int) v1)]
+SYMBOL TABLE
+{cnt=0}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[((Ref(int) v2); ((Ref(int) v3); (new(v1, 2); (new(v2, 3); (new(v3, 4); (newBarrier(cntrH(v2)); (fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3)))))))))))]
+SYMBOL TABLE
+{cnt=0, v1=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[((Ref(int) v2); ((Ref(int) v3); (new(v1, 2); (new(v2, 3); (new(v3, 4); (newBarrier(cntrH(v2)); (fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3)))))))))))]
+SYMBOL TABLE
+{cnt=0, v1=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[((Ref(int) v3); (new(v1, 2); (new(v2, 3); (new(v3, 4); (newBarrier(cntrH(v2)); (fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3)))))))))), (Ref(int) v2)]
+SYMBOL TABLE
+{cnt=0, v1=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[((Ref(int) v3); (new(v1, 2); (new(v2, 3); (new(v3, 4); (newBarrier(cntrH(v2)); (fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3)))))))))), (Ref(int) v2)]
+SYMBOL TABLE
+{cnt=0, v1=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[((Ref(int) v3); (new(v1, 2); (new(v2, 3); (new(v3, 4); (newBarrier(cntrH(v2)); (fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3))))))))))]
+SYMBOL TABLE
+{cnt=0, v1=(0, int), v2=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[((Ref(int) v3); (new(v1, 2); (new(v2, 3); (new(v3, 4); (newBarrier(cntrH(v2)); (fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3))))))))))]
+SYMBOL TABLE
+{cnt=0, v1=(0, int), v2=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[(new(v1, 2); (new(v2, 3); (new(v3, 4); (newBarrier(cntrH(v2)); (fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3))))))))), (Ref(int) v3)]
+SYMBOL TABLE
+{cnt=0, v1=(0, int), v2=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[(new(v1, 2); (new(v2, 3); (new(v3, 4); (newBarrier(cntrH(v2)); (fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3))))))))), (Ref(int) v3)]
+SYMBOL TABLE
+{cnt=0, v1=(0, int), v2=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[(new(v1, 2); (new(v2, 3); (new(v3, 4); (newBarrier(cntrH(v2)); (fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3)))))))))]
+SYMBOL TABLE
+{cnt=0, v1=(0, int), v2=(0, int), v3=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[(new(v1, 2); (new(v2, 3); (new(v3, 4); (newBarrier(cntrH(v2)); (fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3)))))))))]
+SYMBOL TABLE
+{cnt=0, v1=(0, int), v2=(0, int), v3=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[(new(v2, 3); (new(v3, 4); (newBarrier(cntrH(v2)); (fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3)))))))), new(v1, 2)]
+SYMBOL TABLE
+{cnt=0, v1=(0, int), v2=(0, int), v3=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[(new(v2, 3); (new(v3, 4); (newBarrier(cntrH(v2)); (fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3)))))))), new(v1, 2)]
+SYMBOL TABLE
+{cnt=0, v1=(0, int), v2=(0, int), v3=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[(new(v2, 3); (new(v3, 4); (newBarrier(cntrH(v2)); (fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3))))))))]
+SYMBOL TABLE
+{cnt=0, v1=(2, int), v2=(0, int), v3=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[(new(v2, 3); (new(v3, 4); (newBarrier(cntrH(v2)); (fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3))))))))]
+SYMBOL TABLE
+{cnt=0, v1=(2, int), v2=(0, int), v3=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[(new(v3, 4); (newBarrier(cntrH(v2)); (fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3))))))), new(v2, 3)]
+SYMBOL TABLE
+{cnt=0, v1=(2, int), v2=(0, int), v3=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[(new(v3, 4); (newBarrier(cntrH(v2)); (fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3))))))), new(v2, 3)]
+SYMBOL TABLE
+{cnt=0, v1=(2, int), v2=(0, int), v3=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[(new(v3, 4); (newBarrier(cntrH(v2)); (fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3)))))))]
+SYMBOL TABLE
+{cnt=0, v1=(2, int), v2=(3, int), v3=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[(new(v3, 4); (newBarrier(cntrH(v2)); (fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3)))))))]
+SYMBOL TABLE
+{cnt=0, v1=(2, int), v2=(3, int), v3=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[(newBarrier(cntrH(v2)); (fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3)))))), new(v3, 4)]
+SYMBOL TABLE
+{cnt=0, v1=(2, int), v2=(3, int), v3=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[(newBarrier(cntrH(v2)); (fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3)))))), new(v3, 4)]
+SYMBOL TABLE
+{cnt=0, v1=(2, int), v2=(3, int), v3=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[(newBarrier(cntrH(v2)); (fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3))))))]
+SYMBOL TABLE
+{cnt=0, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[(newBarrier(cntrH(v2)); (fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3))))))]
+SYMBOL TABLE
+{cnt=0, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[(fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3))))), newBarrier(cntrH(v2))]
+SYMBOL TABLE
+{cnt=0, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[(fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3))))), newBarrier(cntrH(v2))]
+SYMBOL TABLE
+{cnt=0, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[(fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3)))))]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 []}
+
+ID
+1
+EXE STACK
+[(fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))); (fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3)))))]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 []}
+
+ID
+1
+EXE STACK
+[(fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3)))), fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1)))))]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 []}
+
+ID
+1
+EXE STACK
+[(fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3)))), fork((await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1)))))]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 []}
+
+ID
+2
+EXE STACK
+[(fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3))))]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 []}
+
+ID
+2
+EXE STACK
+[(await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 []}
+
+ID
+2
+EXE STACK
+[(fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))); (await(cnt); print(rH(v3))))]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 []}
+
+ID
+2
+EXE STACK
+[(await(cnt); (wH(v1, rH(v1) * 10); print(rH(v1))))]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 []}
+
+ID
+2
+EXE STACK
+[(await(cnt); print(rH(v3))), fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2))))))]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 []}
+
+ID
+2
+EXE STACK
+[(wH(v1, rH(v1) * 10); print(rH(v1))), await(cnt)]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 []}
+
+ID
+2
+EXE STACK
+[(await(cnt); print(rH(v3))), fork((await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2))))))]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 []}
+
+ID
+2
+EXE STACK
+[(wH(v1, rH(v1) * 10); print(rH(v1))), await(cnt)]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 []}
+
+ID
+3
+EXE STACK
+[(await(cnt); print(rH(v3)))]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 [2]}
+
+ID
+3
+EXE STACK
+[(wH(v1, rH(v1) * 10); print(rH(v1))), await(cnt)]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 [2]}
+
+ID
+3
+EXE STACK
+[(await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 [2]}
+
+ID
+3
+EXE STACK
+[(await(cnt); print(rH(v3)))]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 [2]}
+
+ID
+3
+EXE STACK
+[(wH(v1, rH(v1) * 10); print(rH(v1))), await(cnt)]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 [2]}
+
+ID
+3
+EXE STACK
+[(await(cnt); (wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))))]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 [2]}
+
+ID
+3
+EXE STACK
+[print(rH(v3)), await(cnt)]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 [2]}
+
+ID
+3
+EXE STACK
+[(wH(v1, rH(v1) * 10); print(rH(v1))), await(cnt)]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 [2]}
+
+ID
+3
+EXE STACK
+[(wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))), await(cnt)]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 [2]}
+
+ID
+3
+EXE STACK
+[print(rH(v3)), await(cnt)]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 [2]}
+
+ID
+3
+EXE STACK
+[(wH(v1, rH(v1) * 10); print(rH(v1))), await(cnt)]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 [2]}
+
+ID
+3
+EXE STACK
+[(wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))), await(cnt)]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 [2]}
+
+ID
+3
+EXE STACK
+[print(rH(v3)), await(cnt)]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 [2, 1, 3]}
+
+ID
+3
+EXE STACK
+[(wH(v1, rH(v1) * 10); print(rH(v1)))]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 [2, 1, 3]}
+
+ID
+3
+EXE STACK
+[(wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))), await(cnt)]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 [2, 1, 3]}
+
+ID
+3
+EXE STACK
+[print(rH(v3)), await(cnt)]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 [2, 1, 3]}
+
+ID
+3
+EXE STACK
+[(wH(v1, rH(v1) * 10); print(rH(v1)))]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 [2, 1, 3]}
+
+ID
+3
+EXE STACK
+[(wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2)))), await(cnt)]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 [2, 1, 3]}
+
+ID
+3
+EXE STACK
+[print(rH(v3))]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 [2, 1, 3]}
+
+ID
+3
+EXE STACK
+[print(rH(v1)), wH(v1, rH(v1) * 10)]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 [2, 1, 3]}
+
+ID
+3
+EXE STACK
+[(wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2))))]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 [2, 1, 3]}
+
+ID
+3
+EXE STACK
+[print(rH(v3))]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 [2, 1, 3]}
+
+ID
+3
+EXE STACK
+[print(rH(v1)), wH(v1, rH(v1) * 10)]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 [2, 1, 3]}
+
+ID
+3
+EXE STACK
+[(wH(v2, rH(v2) * 10); (wH(v2, rH(v2) * 10); print(rH(v2))))]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{2=2, 3=3, 4=4}
+BARRIER
+{2=3 [2, 1, 3]}
+
+ID
+3
+EXE STACK
+[]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[4]
+FILE TABLE
+{}
+HEAP
+{2=20, 3=3, 4=4}
+BARRIER
+{2=3 [2, 1, 3]}
+
+ID
+3
+EXE STACK
+[print(rH(v1))]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[4]
+FILE TABLE
+{}
+HEAP
+{2=20, 3=3, 4=4}
+BARRIER
+{2=3 [2, 1, 3]}
+
+ID
+3
+EXE STACK
+[(wH(v2, rH(v2) * 10); print(rH(v2))), wH(v2, rH(v2) * 10)]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[4]
+FILE TABLE
+{}
+HEAP
+{2=20, 3=3, 4=4}
+BARRIER
+{2=3 [2, 1, 3]}
+
+ID
+3
+EXE STACK
+[print(rH(v1))]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[4]
+FILE TABLE
+{}
+HEAP
+{2=20, 3=3, 4=4}
+BARRIER
+{2=3 [2, 1, 3]}
+
+ID
+3
+EXE STACK
+[(wH(v2, rH(v2) * 10); print(rH(v2))), wH(v2, rH(v2) * 10)]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[4]
+FILE TABLE
+{}
+HEAP
+{2=20, 3=3, 4=4}
+BARRIER
+{2=3 [2, 1, 3]}
+
+ID
+3
+EXE STACK
+[]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[4, 20]
+FILE TABLE
+{}
+HEAP
+{2=20, 3=30, 4=4}
+BARRIER
+{2=3 [2, 1, 3]}
+
+ID
+3
+EXE STACK
+[(wH(v2, rH(v2) * 10); print(rH(v2)))]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[4, 20]
+FILE TABLE
+{}
+HEAP
+{2=20, 3=30, 4=4}
+BARRIER
+{2=3 [2, 1, 3]}
+
+ID
+3
+EXE STACK
+[(wH(v2, rH(v2) * 10); print(rH(v2)))]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[4, 20]
+FILE TABLE
+{}
+HEAP
+{2=20, 3=30, 4=4}
+BARRIER
+{2=3 [2, 1, 3]}
+
+ID
+3
+EXE STACK
+[print(rH(v2)), wH(v2, rH(v2) * 10)]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[4, 20]
+FILE TABLE
+{}
+HEAP
+{2=20, 3=30, 4=4}
+BARRIER
+{2=3 [2, 1, 3]}
+
+ID
+3
+EXE STACK
+[print(rH(v2)), wH(v2, rH(v2) * 10)]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[4, 20]
+FILE TABLE
+{}
+HEAP
+{2=20, 3=30, 4=4}
+BARRIER
+{2=3 [2, 1, 3]}
+
+ID
+3
+EXE STACK
+[print(rH(v2))]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[4, 20]
+FILE TABLE
+{}
+HEAP
+{2=20, 3=300, 4=4}
+BARRIER
+{2=3 [2, 1, 3]}
+
+ID
+3
+EXE STACK
+[print(rH(v2))]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[4, 20]
+FILE TABLE
+{}
+HEAP
+{2=20, 3=300, 4=4}
+BARRIER
+{2=3 [2, 1, 3]}
+
+ID
+3
+EXE STACK
+[]
+SYMBOL TABLE
+{cnt=2, v1=(2, int), v2=(3, int), v3=(4, int)}
+OUT
+[4, 20, 300]
+FILE TABLE
+{}
+HEAP
+{2=20, 3=300, 4=4}
+BARRIER
+{2=3 [2, 1, 3]}
+
+ID
+1
+EXE STACK
+[(v = 4; (repeat (print(v); v = v - 1) until v==0; print(v))), (int v)]
+SYMBOL TABLE
+{}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[(v = 4; (repeat (print(v); v = v - 1) until v==0; print(v)))]
+SYMBOL TABLE
+{v=0}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[(v = 4; (repeat (print(v); v = v - 1) until v==0; print(v)))]
+SYMBOL TABLE
+{v=0}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[(repeat (print(v); v = v - 1) until v==0; print(v)), v = 4]
+SYMBOL TABLE
+{v=0}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[(repeat (print(v); v = v - 1) until v==0; print(v)), v = 4]
+SYMBOL TABLE
+{v=0}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[(repeat (print(v); v = v - 1) until v==0; print(v))]
+SYMBOL TABLE
+{v=4}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[(repeat (print(v); v = v - 1) until v==0; print(v))]
+SYMBOL TABLE
+{v=4}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), repeat (print(v); v = v - 1) until v==0]
+SYMBOL TABLE
+{v=4}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), repeat (print(v); v = v - 1) until v==0]
+SYMBOL TABLE
+{v=4}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), ((print(v); v = v - 1); while(!v==0)(print(v); v = v - 1))]
+SYMBOL TABLE
+{v=4}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), ((print(v); v = v - 1); while(!v==0)(print(v); v = v - 1))]
+SYMBOL TABLE
+{v=4}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1), (print(v); v = v - 1)]
+SYMBOL TABLE
+{v=4}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1), (print(v); v = v - 1)]
+SYMBOL TABLE
+{v=4}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1), v = v - 1, print(v)]
+SYMBOL TABLE
+{v=4}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1), v = v - 1, print(v)]
+SYMBOL TABLE
+{v=4}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1), v = v - 1]
+SYMBOL TABLE
+{v=4}
+OUT
+[4]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1), v = v - 1]
+SYMBOL TABLE
+{v=4}
+OUT
+[4]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1)]
+SYMBOL TABLE
+{v=3}
+OUT
+[4]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1)]
+SYMBOL TABLE
+{v=3}
+OUT
+[4]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1), (print(v); v = v - 1)]
+SYMBOL TABLE
+{v=3}
+OUT
+[4]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1), (print(v); v = v - 1)]
+SYMBOL TABLE
+{v=3}
+OUT
+[4]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1), v = v - 1, print(v)]
+SYMBOL TABLE
+{v=3}
+OUT
+[4]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1), v = v - 1, print(v)]
+SYMBOL TABLE
+{v=3}
+OUT
+[4]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1), v = v - 1]
+SYMBOL TABLE
+{v=3}
+OUT
+[4, 3]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1), v = v - 1]
+SYMBOL TABLE
+{v=3}
+OUT
+[4, 3]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1)]
+SYMBOL TABLE
+{v=2}
+OUT
+[4, 3]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1)]
+SYMBOL TABLE
+{v=2}
+OUT
+[4, 3]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1), (print(v); v = v - 1)]
+SYMBOL TABLE
+{v=2}
+OUT
+[4, 3]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1), (print(v); v = v - 1)]
+SYMBOL TABLE
+{v=2}
+OUT
+[4, 3]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1), v = v - 1, print(v)]
+SYMBOL TABLE
+{v=2}
+OUT
+[4, 3]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1), v = v - 1, print(v)]
+SYMBOL TABLE
+{v=2}
+OUT
+[4, 3]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1), v = v - 1]
+SYMBOL TABLE
+{v=2}
+OUT
+[4, 3, 2]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1), v = v - 1]
+SYMBOL TABLE
+{v=2}
+OUT
+[4, 3, 2]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1)]
+SYMBOL TABLE
+{v=1}
+OUT
+[4, 3, 2]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1)]
+SYMBOL TABLE
+{v=1}
+OUT
+[4, 3, 2]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1), (print(v); v = v - 1)]
+SYMBOL TABLE
+{v=1}
+OUT
+[4, 3, 2]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1), (print(v); v = v - 1)]
+SYMBOL TABLE
+{v=1}
+OUT
+[4, 3, 2]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1), v = v - 1, print(v)]
+SYMBOL TABLE
+{v=1}
+OUT
+[4, 3, 2]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1), v = v - 1, print(v)]
+SYMBOL TABLE
+{v=1}
+OUT
+[4, 3, 2]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1), v = v - 1]
+SYMBOL TABLE
+{v=1}
+OUT
+[4, 3, 2, 1]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1), v = v - 1]
+SYMBOL TABLE
+{v=1}
+OUT
+[4, 3, 2, 1]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1)]
+SYMBOL TABLE
+{v=0}
+OUT
+[4, 3, 2, 1]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v), while(!v==0)(print(v); v = v - 1)]
+SYMBOL TABLE
+{v=0}
+OUT
+[4, 3, 2, 1]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v)]
+SYMBOL TABLE
+{v=0}
+OUT
+[4, 3, 2, 1]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[print(v)]
+SYMBOL TABLE
+{v=0}
+OUT
+[4, 3, 2, 1]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+
+ID
+1
+EXE STACK
+[]
+SYMBOL TABLE
+{v=0}
+OUT
+[4, 3, 2, 1, 0]
+FILE TABLE
+{}
+HEAP
+{}
+BARRIER
+{}
+

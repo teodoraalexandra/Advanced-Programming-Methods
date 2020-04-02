@@ -1,0 +1,130 @@
+ID
+3
+EXE STACK
+[((int v); (a = true; (IF(a) THEN(v = 2)ELSE(v = 3); print(v))))]
+SYMBOL TABLE
+{a=false}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+3
+EXE STACK
+[(a = true; (IF(a) THEN(v = 2)ELSE(v = 3); print(v)))]
+SYMBOL TABLE
+{a=false, v=0}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+3
+EXE STACK
+[(a = true; (IF(a) THEN(v = 2)ELSE(v = 3); print(v)))]
+SYMBOL TABLE
+{a=false, v=0}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+3
+EXE STACK
+[(IF(a) THEN(v = 2)ELSE(v = 3); print(v))]
+SYMBOL TABLE
+{a=true, v=0}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+3
+EXE STACK
+[(IF(a) THEN(v = 2)ELSE(v = 3); print(v))]
+SYMBOL TABLE
+{a=true, v=0}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+3
+EXE STACK
+[print(v), v = 2]
+SYMBOL TABLE
+{a=true, v=0}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+3
+EXE STACK
+[print(v), v = 2]
+SYMBOL TABLE
+{a=true, v=0}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+3
+EXE STACK
+[print(v)]
+SYMBOL TABLE
+{a=true, v=2}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+3
+EXE STACK
+[print(v)]
+SYMBOL TABLE
+{a=true, v=2}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+3
+EXE STACK
+[]
+SYMBOL TABLE
+{a=true, v=2}
+OUT
+[2]
+FILE TABLE
+{}
+HEAP
+{}
+

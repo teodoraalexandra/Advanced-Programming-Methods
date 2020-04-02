@@ -1,0 +1,208 @@
+ID
+8
+EXE STACK
+[(new(v, 20); (print(rH(v)); (wH(v, 30); print(rH(v) + 5))))]
+SYMBOL TABLE
+{v=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+8
+EXE STACK
+[(print(rH(v)); (wH(v, 30); print(rH(v) + 5)))]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{1=20}
+
+ID
+8
+EXE STACK
+[(print(rH(v)); (wH(v, 30); print(rH(v) + 5)))]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{1=20}
+
+ID
+8
+EXE STACK
+[(wH(v, 30); print(rH(v) + 5))]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[20]
+FILE TABLE
+{}
+HEAP
+{1=20}
+
+ID
+8
+EXE STACK
+[(wH(v, 30); print(rH(v) + 5))]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[20]
+FILE TABLE
+{}
+HEAP
+{1=20}
+
+ID
+8
+EXE STACK
+[print(rH(v) + 5)]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[20]
+FILE TABLE
+{}
+HEAP
+{1=30}
+
+ID
+8
+EXE STACK
+[print(rH(v) + 5)]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[20]
+FILE TABLE
+{}
+HEAP
+{1=30}
+
+ID
+8
+EXE STACK
+[]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[20, 35]
+FILE TABLE
+{}
+HEAP
+{1=30}
+
+ID
+11
+EXE STACK
+[(new(v, 20); (print(rH(v)); (wH(v, 30); print(rH(v) + 5))))]
+SYMBOL TABLE
+{v=(0, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+11
+EXE STACK
+[(print(rH(v)); (wH(v, 30); print(rH(v) + 5)))]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{1=20}
+
+ID
+11
+EXE STACK
+[(print(rH(v)); (wH(v, 30); print(rH(v) + 5)))]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{1=20}
+
+ID
+11
+EXE STACK
+[(wH(v, 30); print(rH(v) + 5))]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[20]
+FILE TABLE
+{}
+HEAP
+{1=20}
+
+ID
+11
+EXE STACK
+[(wH(v, 30); print(rH(v) + 5))]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[20]
+FILE TABLE
+{}
+HEAP
+{1=20}
+
+ID
+11
+EXE STACK
+[print(rH(v) + 5)]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[20]
+FILE TABLE
+{}
+HEAP
+{1=30}
+
+ID
+11
+EXE STACK
+[print(rH(v) + 5)]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[20]
+FILE TABLE
+{}
+HEAP
+{1=30}
+
+ID
+11
+EXE STACK
+[]
+SYMBOL TABLE
+{v=(1, int)}
+OUT
+[20, 35]
+FILE TABLE
+{}
+HEAP
+{1=30}
+

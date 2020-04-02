@@ -1,0 +1,208 @@
+ID
+4
+EXE STACK
+[(varf = /Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in; (openRFile(varf); ((int varc); (readFile(varf); (print(varc); (readFile(varf); (print(varc); closeRFile(varf))))))))]
+SYMBOL TABLE
+{varf=Null}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+4
+EXE STACK
+[(openRFile(varf); ((int varc); (readFile(varf); (print(varc); (readFile(varf); (print(varc); closeRFile(varf)))))))]
+SYMBOL TABLE
+{varf=/Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+4
+EXE STACK
+[(openRFile(varf); ((int varc); (readFile(varf); (print(varc); (readFile(varf); (print(varc); closeRFile(varf)))))))]
+SYMBOL TABLE
+{varf=/Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+4
+EXE STACK
+[((int varc); (readFile(varf); (print(varc); (readFile(varf); (print(varc); closeRFile(varf))))))]
+SYMBOL TABLE
+{varf=/Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in}
+OUT
+[]
+FILE TABLE
+{/Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in=java.io.BufferedReader@34cd072c}
+HEAP
+{}
+
+ID
+4
+EXE STACK
+[((int varc); (readFile(varf); (print(varc); (readFile(varf); (print(varc); closeRFile(varf))))))]
+SYMBOL TABLE
+{varf=/Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in}
+OUT
+[]
+FILE TABLE
+{/Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in=java.io.BufferedReader@34cd072c}
+HEAP
+{}
+
+ID
+4
+EXE STACK
+[(readFile(varf); (print(varc); (readFile(varf); (print(varc); closeRFile(varf)))))]
+SYMBOL TABLE
+{varc=0, varf=/Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in}
+OUT
+[]
+FILE TABLE
+{/Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in=java.io.BufferedReader@34cd072c}
+HEAP
+{}
+
+ID
+4
+EXE STACK
+[(readFile(varf); (print(varc); (readFile(varf); (print(varc); closeRFile(varf)))))]
+SYMBOL TABLE
+{varc=0, varf=/Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in}
+OUT
+[]
+FILE TABLE
+{/Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in=java.io.BufferedReader@34cd072c}
+HEAP
+{}
+
+ID
+4
+EXE STACK
+[(print(varc); (readFile(varf); (print(varc); closeRFile(varf))))]
+SYMBOL TABLE
+{varc=15, varf=/Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in}
+OUT
+[]
+FILE TABLE
+{/Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in=java.io.BufferedReader@34cd072c}
+HEAP
+{}
+
+ID
+4
+EXE STACK
+[(print(varc); (readFile(varf); (print(varc); closeRFile(varf))))]
+SYMBOL TABLE
+{varc=15, varf=/Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in}
+OUT
+[]
+FILE TABLE
+{/Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in=java.io.BufferedReader@34cd072c}
+HEAP
+{}
+
+ID
+4
+EXE STACK
+[(readFile(varf); (print(varc); closeRFile(varf)))]
+SYMBOL TABLE
+{varc=15, varf=/Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in}
+OUT
+[15]
+FILE TABLE
+{/Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in=java.io.BufferedReader@34cd072c}
+HEAP
+{}
+
+ID
+4
+EXE STACK
+[(readFile(varf); (print(varc); closeRFile(varf)))]
+SYMBOL TABLE
+{varc=15, varf=/Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in}
+OUT
+[15]
+FILE TABLE
+{/Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in=java.io.BufferedReader@34cd072c}
+HEAP
+{}
+
+ID
+4
+EXE STACK
+[(print(varc); closeRFile(varf))]
+SYMBOL TABLE
+{varc=50, varf=/Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in}
+OUT
+[15]
+FILE TABLE
+{/Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in=java.io.BufferedReader@34cd072c}
+HEAP
+{}
+
+ID
+4
+EXE STACK
+[(print(varc); closeRFile(varf))]
+SYMBOL TABLE
+{varc=50, varf=/Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in}
+OUT
+[15]
+FILE TABLE
+{/Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in=java.io.BufferedReader@34cd072c}
+HEAP
+{}
+
+ID
+4
+EXE STACK
+[closeRFile(varf)]
+SYMBOL TABLE
+{varc=50, varf=/Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in}
+OUT
+[15, 50]
+FILE TABLE
+{/Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in=java.io.BufferedReader@34cd072c}
+HEAP
+{}
+
+ID
+4
+EXE STACK
+[closeRFile(varf)]
+SYMBOL TABLE
+{varc=50, varf=/Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in}
+OUT
+[15, 50]
+FILE TABLE
+{/Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in=java.io.BufferedReader@34cd072c}
+HEAP
+{}
+
+ID
+4
+EXE STACK
+[]
+SYMBOL TABLE
+{varc=50, varf=/Users/teodoradan/IdeaProjects/MapLab4.0/src/test.in}
+OUT
+[15, 50]
+FILE TABLE
+{}
+HEAP
+{}
+

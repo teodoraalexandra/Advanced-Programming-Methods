@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<?import javafx.scene.control.TextField?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="605.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.WindowController">
+    <children>
+        <HBox layoutX="3.0" layoutY="134.0" prefHeight="200.0" prefWidth="600.0">
+            <children>
+                <TableView fx:id="heapTable" prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                        <TableColumn fx:id="address" prefWidth="100.0" text="Address" />
+                        <TableColumn fx:id="value" prefWidth="100.0" text="Value" />
+                    </columns>
+                </TableView>
+                <ListView fx:id="out" editable="true" prefHeight="200.0" prefWidth="200.0" />
+                <ListView fx:id="fileTable" editable="true" prefHeight="200.0" prefWidth="200.0" />
+            </children>
+        </HBox>
+        <Label layoutX="65.0" layoutY="108.0" text="Heap Table" />
+        <Label layoutX="295.0" layoutY="108.0" text="Out" />
+        <Label layoutX="473.0" layoutY="108.0" text="File Table" />
+        <TextField fx:id="prgTextField" layoutX="79.0" layoutY="44.0" />
+        <Label layoutX="78.0" layoutY="26.0" text="Number of PrgStates" />
+
+        <Button onAction="#runbutton" layoutX="386.0" layoutY="42.0" mnemonicParsing="false" text="Run One Step" />
+
+        <HBox layoutX="5.0" layoutY="379.0" prefHeight="200.0" prefWidth="600.0">
+            <children>
+                <ListView fx:id="prgStateId" editable="true" prefHeight="200.0" prefWidth="200.0" />
+                <TableView fx:id="symTable" prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                        <TableColumn fx:id="varName" prefWidth="100.0" text="VariableName" />
+                        <TableColumn fx:id="symValue" prefWidth="100.0" text="Value" />
+                    </columns>
+                </TableView>
+                <ListView fx:id="exeStack" editable="true" prefHeight="200.0" prefWidth="200.0" />
+            </children>
+        </HBox>
+        <Label layoutX="56.0" layoutY="351.0" text="PrgState id" />
+        <Label layoutX="273.0" layoutY="351.0" text="SymTable" />
+        <Label layoutX="474.0" layoutY="351.0" text="ExeStack" />
+
+        <TableView fx:id="barrierTable" layoutX="640.0" layoutY="134.0" prefHeight="443.0" prefWidth="229.0">
+            <columns>
+                <TableColumn fx:id="bindex" prefWidth="75.0" text="MyIndex" />
+                <TableColumn fx:id="bvalue" prefWidth="75.0" text="MyValue" />
+                <TableColumn fx:id="blist" prefWidth="78.0" text="MyList" />
+            </columns>
+        </TableView>
+    </children>
+</Pane>

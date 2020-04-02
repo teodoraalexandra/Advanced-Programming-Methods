@@ -1,0 +1,52 @@
+ID
+12
+EXE STACK
+[(v = 2; print(v))]
+SYMBOL TABLE
+{v=Null}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+12
+EXE STACK
+[print(v)]
+SYMBOL TABLE
+{v=Null}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+12
+EXE STACK
+[print(v)]
+SYMBOL TABLE
+{v=Null}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+12
+EXE STACK
+[]
+SYMBOL TABLE
+{v=Null}
+OUT
+[Null]
+FILE TABLE
+{}
+HEAP
+{}
+

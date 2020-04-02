@@ -1,0 +1,195 @@
+ID
+0
+EXE STACK
+[((int v); (v = 2; print(v)))]
+SYMBOL TABLE
+{}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+0
+EXE STACK
+[(v = 2; print(v)), (int v)]
+SYMBOL TABLE
+{}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+0
+EXE STACK
+[(v = 2; print(v)), (int v)]
+SYMBOL TABLE
+{}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+0
+EXE STACK
+[(v = 2; print(v)), (int v)]
+SYMBOL TABLE
+{}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+0
+EXE STACK
+[(v = 2; print(v))]
+SYMBOL TABLE
+{v=0}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+0
+EXE STACK
+[(v = 2; print(v))]
+SYMBOL TABLE
+{v=0}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+0
+EXE STACK
+[(v = 2; print(v))]
+SYMBOL TABLE
+{v=0}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+0
+EXE STACK
+[print(v), v = 2]
+SYMBOL TABLE
+{v=0}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+0
+EXE STACK
+[print(v), v = 2]
+SYMBOL TABLE
+{v=0}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+0
+EXE STACK
+[print(v), v = 2]
+SYMBOL TABLE
+{v=0}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+0
+EXE STACK
+[print(v)]
+SYMBOL TABLE
+{v=2}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+0
+EXE STACK
+[print(v)]
+SYMBOL TABLE
+{v=2}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+0
+EXE STACK
+[print(v)]
+SYMBOL TABLE
+{v=2}
+OUT
+[]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+0
+EXE STACK
+[]
+SYMBOL TABLE
+{v=2}
+OUT
+[2]
+FILE TABLE
+{}
+HEAP
+{}
+
+ID
+0
+EXE STACK
+[]
+SYMBOL TABLE
+{v=2}
+OUT
+[2]
+FILE TABLE
+{}
+HEAP
+{}
+
